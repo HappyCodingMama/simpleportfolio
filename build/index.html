@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- animate on scroll css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
     <title>Portfolio</title>
   </head>
   <body>
@@ -12,10 +19,17 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar__row">
-          <div class="logo"><a href="index.html">Portfolio</a></div>
+          <div class="logo" data-aos="fade-in-left" data-aos-delay="150">
+            <a href="index.html">Portfolio</a>
+          </div>
           <ul class="menu">
             <li class="nav-item" id="copyItem">
-              <a href="#contact" class="nav-link" id="myEmail"
+              <a
+                href="#contact"
+                class="nav-link"
+                id="myEmail"
+                data-aos="fade-in-left"
+                data-aos-delay="300"
                 >studwing@hotmail.com</a
               >
             </li>
@@ -27,14 +41,14 @@
     <section class="aboutme section" id="aboutme">
       <div class="aboutme__container container">
         <div class="aboutme__texts">
-          <p class="aboutme__text">
+          <p class="aboutme__text" data-aos="fade-up" data-aos-delay="150">
             <b>I am Yang Jung,</b> a self taught web developer.
           </p>
-          <p class="aboutme__subtext">
+          <p class="aboutme__subtext" data-aos="fade-up" data-aos-delay="300">
             I am a problem solver and a team worker, passionate about progress
             and a productivity addict.
           </p>
-          <p class="aboutme__subtext">
+          <p class="aboutme__subtext" data-aos="fade-up" data-aos-delay="300">
             I ready to learn new technology and hope to work on ambitious
             projects with positive people.
           </p>
@@ -44,16 +58,24 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button class="aboutme__resume">Resume</button></a
+          <button
+            class="aboutme__resume"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
+            Resume
+          </button></a
         >
       </div>
     </section>
     <!-- qualification -->
     <section class="qualification section" id="qualification">
-      <h2 class="section__title">Qualification_</h2>
+      <h2 class="section__title" data-aos="fade-in-left" data-aos-delay="150">
+        Qualification_
+      </h2>
 
       <div class="qualification__container container">
-        <div class="education">
+        <div class="education" data-aos="fade-right" data-aos-delay="300">
           <h3 class="qualification__title">Education</h3>
 
           <div class="timeline">
@@ -75,7 +97,7 @@
           </div>
         </div>
 
-        <div class="experience">
+        <div class="experience" data-aos="fade-left" data-aos-delay="450">
           <h3 class="qualification__title">Experience</h3>
 
           <div class="timeline">
@@ -107,9 +129,19 @@
           </div>
         </div>
       </div>
-      <h2 class="section__title skills">Skills_</h2>
+      <h2
+        class="section__title skills"
+        data-aos="fade-in-left"
+        data-aos-delay="150"
+      >
+        Skills_
+      </h2>
       <div class="qualification__container container">
-        <div class="qualification__skills">
+        <div
+          class="qualification__skills"
+          data-aos="fade-right"
+          data-aos-delay="300"
+        >
           <div class="qualification__title">WEB DEVELOPMENT</div>
           <div class="skills__items">
             <div class="timeline__item">
@@ -126,7 +158,11 @@
             </div>
           </div>
         </div>
-        <div class="qualification__skills">
+        <div
+          class="qualification__skills"
+          data-aos="fade-left"
+          data-aos-delay="450"
+        >
           <div class="qualification__title">MOTION GRAPHICS</div>
           <div class="skills__items">
             <div class="timeline__item">
@@ -147,10 +183,16 @@
 
     <!-- work -->
     <section class="work section" id="work">
-      <h2 class="section__title">Featured Projects_</h2>
+      <h2 class="section__title" data-aos="fade-in-left" data-aos-delay="300">
+        Featured Projects_
+      </h2>
       <!-- Featured-1 -->
       <div class="work__featured_container container grid featured">
-        <div class="featured_work__card">
+        <div
+          class="featured_work__card"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <img
             src="https://firebasestorage.googleapis.com/v0/b/simple-portfolio-84dc6.appspot.com/o/thumbnail_uiux_001.jpg?alt=media&token=2796e89a-1197-44ea-b182-e0bd876a39b2"
             alt=""
@@ -210,7 +252,11 @@
           </div>
         </div>
         <!-- Featured-2 -->
-        <div class="featured_work__card">
+        <div
+          class="featured_work__card"
+          data-aos="fade-up"
+          data-aos-delay="450"
+        >
           <img
             src="https://firebasestorage.googleapis.com/v0/b/simple-portfolio-84dc6.appspot.com/o/thumbnail_website_001.jpg?alt=media&token=debe8b7d-b954-47f5-b38c-7b8984f4e55c"
             alt=""
@@ -269,7 +315,11 @@
           </div>
         </div>
         <!-- Featured-3 -->
-        <div class="featured_work__card">
+        <div
+          class="featured_work__card"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
           <img
             src="https://firebasestorage.googleapis.com/v0/b/simple-portfolio-84dc6.appspot.com/o/thumbnail_webapp_002.jpg?alt=media&token=b49cc16d-6cc6-4376-9ef2-61c4f0af6841"
             alt=""
@@ -782,5 +832,20 @@
     </footer>
 
     <script src="main.js"></script>
+
+    <!-- animate on scroll js-->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
   </body>
 </html>
