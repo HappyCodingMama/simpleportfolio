@@ -22,18 +22,19 @@
           <div class="logo" data-aos="fade-in-left" data-aos-delay="150">
             <a href="index.html">Portfolio</a>
           </div>
-          <ul class="menu">
-            <li class="nav-item" id="copyItem">
-              <a
-                href="#contact"
-                class="nav-link"
-                id="myEmail"
-                data-aos="fade-in-left"
-                data-aos-delay="300"
-                >studwing@hotmail.com</a
-              >
-            </li>
-          </ul>
+
+          <div class="menu">
+            <div class="tooltip">
+              <input
+                type="text"
+                onclick="myFunction()"
+                onmouseout="outFunc()"
+                value="studwing@hotmail.com"
+                id="myInput"
+              />
+              <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -46,25 +47,20 @@
           </p>
           <p class="aboutme__subtext" data-aos="fade-up" data-aos-delay="300">
             I am a problem solver and a team worker, passionate about progress
-            and a productivity addict.
-          </p>
-          <p class="aboutme__subtext" data-aos="fade-up" data-aos-delay="300">
-            I ready to learn new technology and hope to work on ambitious
-            projects with positive people.
+            and a productivity addict. I ready to learn new technology and hope
+            to work on ambitious projects with positive people. and a
+            productivity addict. I ready to learn new technology and hope to
+            work on ambitious projects with positive people.
           </p>
         </div>
         <a
           href="https://drive.google.com/file/d/1AzHvM6DR6WUaJ1-wWW0B2i8cPG_2QzvI/view"
           target="_blank"
           rel="noopener noreferrer"
+          data-aos="fade-up"
+          data-aos-delay="450"
         >
-          <button
-            class="aboutme__resume"
-            data-aos="fade-up"
-            data-aos-delay="450"
-          >
-            Resume
-          </button></a
+          <button class="aboutme__resume btn">Resume</button></a
         >
       </div>
     </section>
@@ -390,9 +386,16 @@
           </div>
         </div>
       </div>
-      <!-- 
-      <h2 class="section__title">Other Projects_</h2>
-      <div class="work__filters" id="buttons">
+
+      <h2 class="section__title" data-aos="fade-in-left" data-aos-delay="150">
+        Other Projects_
+      </h2>
+      <div
+        class="work__filters"
+        id="buttons"
+        data-aos="zoom-in-left"
+        data-aos-delay="300"
+      >
         <span class="work__item active-work" onclick="filterObjects('all')"
           >All</span
         >
@@ -404,8 +407,8 @@
       </div>
 
       <div class="work__container container grid">
-      //1
-        <div class="work__card uiux">
+        <!-- 1 -->
+        <div class="work__card uiux" data-aos="fade-up" data-aos-delay="450">
           <img
             src="assets/img/thumbnail_uiux_001.jpg"
             alt=""
@@ -463,8 +466,8 @@
             </div>
           </div>
         </div>
-         //2
-        <div class="work__card website">
+        <!-- 2 -->
+        <div class="work__card website" data-aos="fade-up" data-aos-delay="600">
           <img
             src="assets/img/thumbnail_website_001.jpg"
             alt=""
@@ -507,8 +510,8 @@
             </div>
           </div>
         </div>
-        //3
-        <div class="work__card webapp">
+        <!-- 3 -->
+        <div class="work__card webapp" data-aos="fade-up" data-aos-delay="750">
           <img
             src="assets/img/thumbnail_webapp_002.jpg"
             alt=""
@@ -558,8 +561,8 @@
             </div>
           </div>
         </div>
-      //4
-        <div class="work__card website">
+        <!-- 4 -->
+        <div class="work__card website" data-aos="fade-up" data-aos-delay="900">
           <img
             src="assets/img/thumbnail_webapp_001.jpg"
             alt=""
@@ -601,8 +604,8 @@
             </div>
           </div>
         </div>
-         //5
-        <div class="work__card webapp">
+        <!-- 5 -->
+        <div class="work__card webapp" data-aos="fade-up" data-aos-delay="1050">
           <img
             src="assets/img/thumbnail_webapp_003.jpg"
             alt=""
@@ -649,8 +652,8 @@
             </div>
           </div>
         </div>
-       //6
-        <div class="work__card uiux">
+        <!-- 6 -->
+        <div class="work__card uiux" data-aos="fade-up" data-aos-delay="1300">
           <img
             src="assets/img/thumbnail_webapp_004.jpg"
             alt=""
@@ -683,8 +686,8 @@
             </div>
           </div>
         </div>
-  //7
-        <div class="work__card uiux">
+        <!-- 7 -->
+        <div class="work__card uiux" data-aos="fade-up" data-aos-delay="1450">
           <img
             src="assets/img/thumbnail_webapp_004.jpg"
             alt=""
@@ -718,8 +721,8 @@
           </div>
         </div>
 
-         //8
-        <div class="work__card uiux">
+        <!-- 8 -->
+        <div class="work__card uiux" data-aos="fade-up" data-aos-delay="1600">
           <img
             src="assets/img/thumbnail_webapp_004.jpg"
             alt=""
@@ -753,8 +756,8 @@
           </div>
         </div>
 
-          //9
-        <div class="work__card uiux">
+        <!-- 9 -->
+        <div class="work__card uiux" data-aos="fade-up" data-aos-delay="1600">
           <img
             src="assets/img/thumbnail_webapp_004.jpg"
             alt=""
@@ -786,9 +789,8 @@
               />
             </div>
           </div>
-        </div>  
+        </div>
       </div>
-     -->
     </section>
 
     <!-- popup -->
