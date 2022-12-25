@@ -96,3 +96,21 @@ function showModal() {
 }
 
 //https://www.geeksforgeeks.org/how-to-prevent-body-from-scrolling-when-a-modal-is-opened-using-jquery/
+
+//copy to clipboard
+function myFunction() {
+  var copyText = document.getElementById('myInput');
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+
+  var tooltip = document.getElementById('myTooltip');
+  tooltip.innerHTML = 'Copied';
+}
+
+function outFunc() {
+  var tooltip = document.getElementById('myTooltip');
+  tooltip.innerHTML = 'Copy to clipboard';
+}
+
+//https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_copy_clipboard2
